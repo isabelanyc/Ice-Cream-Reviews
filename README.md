@@ -6,8 +6,8 @@
 
 ### Project Summary
 
-### [Data](https://www.kaggle.com/tysonpo/ice-cream-dataset)
-The dataset used for this project comes from Kaggle.
+### Data
+The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tysonpo/ice-cream-dataset).
 
 
 ### Project Breakdown
