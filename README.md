@@ -23,4 +23,15 @@ The main files for this project can be found under `notebooks`:
 
 ### Results
 
+```
+                precision    recall  f1-score   support
+
+         Bad       0.90      0.75      0.82      1349
+        Good       0.94      0.98      0.96      5154
+
+    accuracy                           0.93      6503
+   macro avg       0.92      0.87      0.89      6503
+weighted avg       0.93      0.93      0.93      6503
+```
+
 ### Future Work
