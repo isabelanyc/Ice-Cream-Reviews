@@ -14,10 +14,10 @@ The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tys
 
 ```
 | brand | key  |     author     |    date    | stars |         title        |  helpful_yes | helpful_no |            text                      |  taste |   ingredients |   texture |   likes |
-|:-------|:-----|:---------------|:-----------|--------:|:----------------------------------|--------------:|-------------:|:---------|--------:|--------------:|----------:|--------:|
-|   bj   | 0_bj  | Ilovebennjerry | 2017-04-15 |   3   | Not enough brownies! |      10      |      3     | Super good, don't get me wrong... | nan | nan | nan | nan |
-|   bj   | 0_bj  | Sweettooth909  | 2020-01-05 |   5   | I’m OBSESSED wit...  |      3       |      0     | I decided to try it out althoug... | nan | nan | nan | nan |
-|   bj   | 0_bj  | LaTanga71      | 2018-04-26 |   3   | My favorite...Mo...  |      5       |      2     | My caramel core begins to disap... |   nan  |      nan     |     nan    | nan |
+|:------|:-----|:---------------|:-----------|--------:|:----------------------------------|--------------:|-------------:|:---------|--------:|--------------:|----------:|--------:|
+|   bj  | 0_bj  | Ilovebennjerry | 2017-04-15 |   3   | Not enough brownies! |      10      |      3     | Super good, don't get me wrong... | nan | nan | nan | nan |
+|   bj  | 0_bj  | Sweettooth909  | 2020-01-05 |   5   | I’m OBSESSED wit...  |      3       |      0     | I decided to try it out althoug... | nan | nan | nan | nan |
+|   bj  | 0_bj  | LaTanga71      | 2018-04-26 |   3   | My favorite...Mo...  |      5       |      2     | My caramel core begins to disap... |   nan  |      nan     |     nan    | nan |
 ```
 
 
