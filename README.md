@@ -37,8 +37,8 @@ A snippet of both dataframes can be seen below:
 
 Using these two sets of data, a single dataframe was created called `data`. This takes the `brand`, `author`, `title`, `stars` and `text` feautres from `reviews` and the `rating` and `name`, `rating_count` from `products`. A snippet of the `data` dataframe can be seen below:
 ```
-| author         | brand   | name                |   rating |   rating_count |   stars |       title         |                   text                |
-|:---------------|:--------|:--------------------|---------:|---------------:|--------:|:--------------------|:---------------------------------------|
+| author         | brand   | name                |   rating |   rating_count |   stars |       title         |                   text            |
+|:---------------|:--------|:--------------------|---------:|---------------:|--------:|:--------------------|:-----------------------------------|
 | Ilovebennjerry |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | Not enough brown... | Super good, don't get me wrong... |
 | Sweettooth909  |    bj   | Salted Caramel Core |      3.7 |            208 |       5 | I’m OBSESSED wit... | I decided to try it out althoug... |
 | LaTanga71      |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | My favorite...Mo... | My caramel core begins to disap... |
