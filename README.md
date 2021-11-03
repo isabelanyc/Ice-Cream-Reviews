@@ -47,9 +47,9 @@ Using these two sets of data, a single dataframe was created called `data`. This
 ### Project Breakdown
 The main files for this project can be found under `notebooks`:
 
-- `1_data_wrangling.ipynb`: 
+- [`1_data_wrangling.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/1_data_wrangling.ipynb): 
    
-- `2_eda.ipynb`:
+- [`2_eda.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/2_eda.ipynb):
 
 - `3_preprocessing.ipynb`:
 
