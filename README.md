@@ -89,3 +89,6 @@ weighted avg       0.93      0.93      0.93      6503
 </p>
 
 ### Future Work
+In the future, I wish to return to this project and make additions and adjustments:
+- Use Word2Vec instead of TF-IDF
+- Create a pipeine for the entire process
