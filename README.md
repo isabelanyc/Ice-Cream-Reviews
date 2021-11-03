@@ -85,7 +85,7 @@ weighted avg       0.93      0.93      0.93      6503
 ```
 
 <p align="center">
-  <img src="./images/roc.png"  width="400" height="300">
+  <img src="./images/roc.png"  width="500" height="300">
 </p>
 
 ### Future Work
