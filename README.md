@@ -10,7 +10,11 @@ According to the [International Dairy Foods Association](https://www.idfa.org/ic
 In addition to applying machine learning methods to create the classifier, an exensive EDA was done to further understand which flavors people like/dislike and which brands are most popular.
 
 ### Data
-The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tysonpo/ice-cream-dataset). The data is broken down into 
+The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tysonpo/ice-cream-dataset). The data is broken down into two main dataframes `reviews` and `products`. The `reviews` dataframe contains all the information about the review for a specific ice cream flavor. This includes features such as `brand`, `author`, `title`, `text` (which is the content of the review and `stars` (the rating of the flavor on a scale from 1 to 5). The `products` dataframe contains more detailed information about each ice cream flavor. This includes features such as `brand`, `name`, `rating` (the average of all ratings for that flavor) and `rating_count` (the number of times the flavor has been reviewed).
+
+A snippet of both dataframes can be seen below:
+
+`reviews` dataframe: 
 
 ```
 | brand | key  |     author     |    date    | stars |         title        |  helpful_yes | helpful_no |            text                      |  taste |   ingredients |   texture |   likes |
@@ -19,6 +23,8 @@ The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tys
 |   bj  | 0_bj | Sweettooth909  | 2020-01-05 |   5   | I’m OBSESSED wit...  |      3       |      0     | I decided to try it out althoug...   |   nan  |      nan      |    nan    |   nan   |
 |   bj  | 0_bj | LaTanga71      | 2018-04-26 |   3   | My favorite...Mo...  |      5       |      2     | My caramel core begins to disap...   |   nan  |      nan      |    nan    |   nan   |
 ```
+
+`products` dataframe: 
 
 ```
 | brand |  key |        name         |         subhead          |         description           | rating | rating_count |     ingredients     |
