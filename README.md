@@ -22,7 +22,7 @@ The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tys
 
 ```
 | brand |  key |        name         |         subhead          |         description           | rating | rating_count | ingredients  |
-|:------|:-----|:--------------------|:-------------------------|:------------------------------|---------:|-----------:|:----------------------|
+|:------|:-----|:--------------------|:-------------------------|:------------------------------|-------:|-------------:|:-----------------------|
 |  bj   | 0_bj | Salted Caramel Core | Sweet Cream Ice Cream... | Find your way to the ultima...|  3.7   |            208 | CREAM, SKIM MILK... |
 |  bj   | 1_bj | Netflix & Chilll'd™ | Peanut Butter Ice Cre... | There’s something for ever... |  4     |            127 | CREAM, SKIM MILK... |
 |  bj   | 2_bj |    Chip Happens     | A Cold Mess of Chocol... | Sometimes “chip” happens a... |  4.7   |      130 | CREAM, LIQUID SUGAR |
