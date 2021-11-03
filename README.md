@@ -47,13 +47,15 @@ Using these two sets of data, a single dataframe was created called `data`. This
 ### Project Breakdown
 The main files for this project can be found under `notebooks`:
 
-- [`1_data_wrangling.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/1_data_wrangling.ipynb): 
+- [`1_data_wrangling.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/1_data_wrangling.ipynb):
+    - Merge `reviews` and `products` to create the `data` dataframe
+    - Create feature `good_review` that takes the value *Good* if `stars` has a value greater than 3 and takes the value *Bad* otherwise. Creating this feature is what allows to transform the problem into a binary classification problem.
    
 - [`2_eda.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/2_eda.ipynb):
 
-- `3_preprocessing.ipynb`:
+- [`3_preprocessing.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/3_preprocessing.ipynb):
 
-- `4_modelling.ipynb`:
+- [`4_modelling.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/4_modelling.ipynb):
 
 ### Results
 
