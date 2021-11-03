@@ -24,6 +24,7 @@ A snippet of both dataframes can be seen below:
 |   bj  | 0_bj | LaTanga71      | 2018-04-26 |   3   | My favorite...Mo...  |      5       |      2     | My caramel core begins to disap...   |   nan  |      nan      |    nan    |   nan   |
 ```
 
+
 `products` dataframe: 
 
 ```
