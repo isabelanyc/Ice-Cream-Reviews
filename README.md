@@ -68,4 +68,8 @@ The main files for this project can be found under `notebooks`:
 weighted avg       0.93      0.93      0.93      6503
 ```
 
+<p align="center">
+  <img src="./images/roc.jpeg"  width="250" height="300">
+</p>
+
 ### Future Work
