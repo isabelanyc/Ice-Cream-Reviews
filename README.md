@@ -19,7 +19,7 @@ A snippet of both dataframes can be seen below:
 ```
 | brand | key  |     author     |    date    | stars |         title        |  helpful_yes | helpful_no |            text                      |  taste |   ingredients |   texture |   likes |
 |:------|:-----|:---------------|:-----------|------:|:---------------------|-------------:|-----------:|:-------------------------------------|-------:|--------------:|----------:|--------:|
-|   bj  | 0_bj | Ilovebennjerry | 2017-04-15 |   3   | Not enough brownies! |      10      |      3     | Super good, don't get me wrong...    |   nan  |      nan      |    nan    |   nan   |
+|   bj  | 0_bj | Ilovebennjerry | 2017-04-15 |   3   | Not enough browni... |      10      |      3     | Super good, don't get me wrong...    |   nan  |      nan      |    nan    |   nan   |
 |   bj  | 0_bj | Sweettooth909  | 2020-01-05 |   5   | I’m OBSESSED wit...  |      3       |      0     | I decided to try it out althoug...   |   nan  |      nan      |    nan    |   nan   |
 |   bj  | 0_bj | LaTanga71      | 2018-04-26 |   3   | My favorite...Mo...  |      5       |      2     | My caramel core begins to disap...   |   nan  |      nan      |    nan    |   nan   |
 ```
@@ -37,11 +37,11 @@ A snippet of both dataframes can be seen below:
 
 Using these two sets of data, a single dataframe was created called `data`. This takes the `brand`, `author`, `title`, `stars` and `text` feautres from `reviews` and the `rating` and `name`, `rating_count` from `products`. A snippet of the `data` dataframe can be seen below:
 ```
-| author         | brand   | name                |   rating |   rating_count |   stars | title                             |            text     |
+| author         | brand   | name                |   rating |   rating_count |   stars |       title         |            text     |
 |:---------------|:--------|:--------------------|---------:|---------------:|--------:|:----------------------------------|:--------------------------------------------------------------|
-| Ilovebennjerry |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | Not enough brownies!              | Super good, don't get me wrong... |          |           |         |                     |          |                |         |                                   |           |
-| Sweettooth909  |    bj   | Salted Caramel Core |      3.7 |            208 |       5 | I’m OBSESSED with this pint!      | I decided to try it out althoug... |
-| LaTanga71      |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | My favorite...More Caramel Please | My caramel core begins to disap... |
+| Ilovebennjerry |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | Not enough brown... | Super good, don't get me wrong... |         |
+| Sweettooth909  |    bj   | Salted Caramel Core |      3.7 |            208 |       5 | I’m OBSESSED wit... | I decided to try it out althoug... |
+| LaTanga71      |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | My favorite...Mo... | My caramel core begins to disap... |
 ```
 
 ### Project Breakdown
