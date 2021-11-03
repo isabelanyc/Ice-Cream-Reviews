@@ -7,10 +7,10 @@
 ### Project Summary
 According to the [International Dairy Foods Association](https://www.idfa.org/ice-cream-sales-trends), Americans consume pounds of ice cream per year. That is a whole lot of ice cream! It makes sense for ice cream manufacturers to care a lot about their cusomter's opinions about their flavors. This project seeks out to lend a helping hand to the ice cream industry by building a ice cream review classifier. Using NLP techniques, each review can be classified as good or bad.
 
-In addition to applying machine learning methods to create the classifier, an exensive EDA was done to further understand which flavors people like/dislike and which brands are most popular.
+In addition to applying machine learning methods to create the classifier, an exensive EDA was done to perform a sentiment analysis, understand which flavors people like/dislike and which brands are most popular.
 
 ### Data
-The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tysonpo/ice-cream-dataset). The data is broken down into two main dataframes `reviews` and `products`. The `reviews` dataframe contains all the information about the review for a specific ice cream flavor. This includes features such as `brand`, `author`, `title`, `text` (which is the content of the review and `stars` (the rating of the flavor on a scale from 1 to 5). The `products` dataframe contains more detailed information about each ice cream flavor. This includes features such as `brand`, `name`, `rating` (the average of all ratings for that flavor) and `rating_count` (the number of times the flavor has been reviewed).
+The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tysonpo/ice-cream-dataset). The data is broken down into two main dataframes `reviews` and `products`.  These datasets include information for four popular ice cream brands: Haagen Daz, Ben & Jerry's, Breyer's and Taletni. The `reviews` dataframe contains all the information about the review for a specific ice cream flavor. This includes features such as `brand`, `author`, `title`, `text` (which is the content of the review and `stars` (the rating of the flavor on a scale from 1 to 5). The `products` dataframe contains more detailed information about each ice cream flavor. This includes features such as `brand`, `name`, `rating` (the average of all ratings for that flavor) and `rating_count` (the number of times the flavor has been reviewed).
 
 A snippet of both dataframes can be seen below:
 
@@ -35,6 +35,10 @@ A snippet of both dataframes can be seen below:
 |  bj   | 2_bj |    Chip Happens     | A Cold Mess of Chocol... | Sometimes “chip” happens a... |  4.7   |      130     | CREAM, LIQUID SU... |
 ```
 
+Using these two sets of data, a single dataframe was created called `data`. This takes the `brand`, `author`, `title`, `stars` and `text` feautres from `reviews` and the `rating` and `name`, `rating_count` from `products`. Finally, using the `stars` feature, a new feature `good_review` was created. `good_review` takes the value *Good* if the value of `stars` is above 3, and *Bad* if the value is 3 or below. The reason for doing this is because this will make the problem at hand a binary classification problem. In other words, the objective is now to use the review information to predcit `good_review`. A snippet of the `data` dataframe can be seen below:
+```
+
+```
 
 ### Project Breakdown
 The main files for this project can be found under `notebooks`:
