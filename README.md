@@ -35,9 +35,13 @@ A snippet of both dataframes can be seen below:
 |  bj   | 2_bj |    Chip Happens     | A Cold Mess of Chocol... | Sometimes “chip” happens a... |  4.7   |      130     | CREAM, LIQUID SU... |
 ```
 
-Using these two sets of data, a single dataframe was created called `data`. This takes the `brand`, `author`, `title`, `stars` and `text` feautres from `reviews` and the `rating` and `name`, `rating_count` from `products`. Finally, using the `stars` feature, a new feature `good_review` was created. `good_review` takes the value *Good* if the value of `stars` is above 3, and *Bad* if the value is 3 or below. The reason for doing this is because this will make the problem at hand a binary classification problem. In other words, the objective is now to use the review information to predcit `good_review`. A snippet of the `data` dataframe can be seen below:
+Using these two sets of data, a single dataframe was created called `data`. This takes the `brand`, `author`, `title`, `stars` and `text` feautres from `reviews` and the `rating` and `name`, `rating_count` from `products`. A snippet of the `data` dataframe can be seen below:
 ```
-
+| author         | brand   | name                |   rating |   rating_count |   stars | title                             |            text     |
+|:---------------|:--------|:--------------------|---------:|---------------:|--------:|:----------------------------------|:--------------------------------------------------------------|
+| Ilovebennjerry |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | Not enough brownies!              | Super good, don't get me wrong... |          |           |         |                     |          |                |         |                                   |           |
+| Sweettooth909  |    bj   | Salted Caramel Core |      3.7 |            208 |       5 | I’m OBSESSED with this pint!      | I decided to try it out althoug... |
+| LaTanga71      |    bj   | Salted Caramel Core |      3.7 |            208 |       3 | My favorite...More Caramel Please | My caramel core begins to disap... |
 ```
 
 ### Project Breakdown
