@@ -48,9 +48,9 @@ Using these two sets of data, a single dataframe was created called `data`. This
 The main files for this project can be found under `notebooks`:
 
 - [`1_data_wrangling.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/1_data_wrangling.ipynb):
-    - Merge `reviews` and `products` to create the `data` dataframe
-    - Create feature `good_review` that takes the value *Good* if `stars` has a value greater than 3 and takes the value *Bad* otherwise. Creating this feature is what allows to transform the problem into a binary classification problem.
-    - Remove stopwords from `text`, apply tokenizer lemmatization, remove special characters and make all words lowercase.
+    - Merged `reviews` and `products` to create the `data` dataframe
+    - Created feature `good_review` that takes the value *Good* if `stars` has a value greater than 3 and takes the value *Bad* otherwise. This feature is what allows the problem to become a binary classification problem.
+    - Remove stopwords, applied tokenizer, lemmatization, removed special characters and made all words lowercase.
    
 - [`2_eda.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/2_eda.ipynb):
    - Identified which brand is most popular
@@ -59,11 +59,19 @@ The main files for this project can be found under `notebooks`:
    - Created word clouds for good and bad reviews
 
 - [`3_preprocessing.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/3_preprocessing.ipynb):
+    - Applied TF-IDF vectorizer to transform the text data
     - Shuffled and split the data into testing and training sets
 
 - [`4_modelling.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/4_modelling.ipynb):
+    - Tested four models and one dummy baseline model:
+        - Multinomial Naive Bayes
+        - Passive Aggressive Classifier
+        - Logistic Regression
+        - SVM
+     - Each model was hyperparameter tuned using a randomized search and a 10 fold cross validation.
 
 ### Results
+All the models performed fairly well. Each model scored above 0.85 weighted average F1. However, logisitc regression performed the best and ran quite quickly. Below is a snippet of the evaluation metrics and ROC curve:
 
 ```
                 precision    recall  f1-score   support
