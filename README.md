@@ -20,6 +20,13 @@ The dataset used for this project comes from [Kaggle](https://www.kaggle.com/tys
 |   bj  | 0_bj | LaTanga71      | 2018-04-26 |   3   | My favorite...Mo...  |      5       |      2     | My caramel core begins to disap...   |   nan  |      nan      |    nan    |   nan   |
 ```
 
+```
+| brand   | key   | name                | subhead                                                                          | description      |   rating |   rating_count | ingredients       |\n|:--------|:------|:--------------------|:---------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------:|---------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| bj      | 0_bj  | Salted Caramel Core | Sweet Cream Ice Cream... | Find your way to the ultima...|      3.7 |            208 | CREAM, SKIM MILK... |
+| bj      | 1_bj  | Netflix & Chilll'd™ | Peanut Butter Ice Cre... | There’s something for ever... |      4   |            127 | CREAM, SKIM MILK... |
+| bj      | 2_bj  |    Chip Happens    | A Cold Mess of Chocol... | Sometimes “chip” happens an... |      4.7 |            130 | CREAM, LIQUID SUGAR |
+```
+
 
 ### Project Breakdown
 The main files for this project can be found under `notebooks`:
