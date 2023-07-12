@@ -1,0 +1,10 @@
+sagemaker
+scikit-learn
+pandas
+numpy
+nltk
+textblob
+scattertext
+matplotlib
+seaborn
+ipykernel
