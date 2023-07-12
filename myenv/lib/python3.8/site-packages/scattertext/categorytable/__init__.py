@@ -1,0 +1,3 @@
+from scattertext.categorytable.multi_category_association import MultiCategoryAssociationBase
+
+

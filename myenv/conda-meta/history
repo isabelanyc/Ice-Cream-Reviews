@@ -1,0 +1,18 @@
+==> 2023-07-12 12:42:59 <==
+# cmd: /Users/isabelacaetano/opt/anaconda3/bin/conda create -p myenv python=3.8
+# conda version: 4.12.0
++defaults/osx-64::ca-certificates-2023.05.30-hecd8cb5_0
++defaults/osx-64::libcxx-14.0.6-h9765a3e_0
++defaults/osx-64::libffi-3.4.4-hecd8cb5_0
++defaults/osx-64::ncurses-6.4-hcec6c5f_0
++defaults/osx-64::openssl-3.0.9-hca72f7f_0
++defaults/osx-64::pip-23.1.2-py38hecd8cb5_0
++defaults/osx-64::python-3.8.17-h5ee71fb_0
++defaults/osx-64::readline-8.2-hca72f7f_0
++defaults/osx-64::setuptools-67.8.0-py38hecd8cb5_0
++defaults/osx-64::sqlite-3.41.2-h6c40b1e_0
++defaults/osx-64::tk-8.6.12-h5d9f67b_0
++defaults/osx-64::wheel-0.38.4-py38hecd8cb5_0
++defaults/osx-64::xz-5.4.2-h6c40b1e_0
++defaults/osx-64::zlib-1.2.13-h4dc903c_0
+# update specs: ['python=3.8']

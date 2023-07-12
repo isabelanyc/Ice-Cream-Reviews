@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: scattertext
+Version: 0.1.19
+Summary: An NLP package to visualize interesting terms in text.
+Home-page: https://github.com/JasonKessler/scattertext
+Author: Jason Kessler
+Author-email: jason.kessler@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: statsmodels
+Requires-Dist: flashtext
+Requires-Dist: gensim (>=4.0.0)
+Requires-Dist: spacy (>=3.2)
+Requires-Dist: tqdm
+
+UNKNOWN
+
