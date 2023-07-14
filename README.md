@@ -45,6 +45,25 @@ Using these two sets of data, a single dataframe was created called `data`. This
 ```
 
 ### Project Breakdown
+
+Ice-Cream-Reviews/
+├── data/
+│   ├── test.csv
+│   ├── train.csv
+│   └── ...
+├── images/
+│   ├── ben_jerry.jpeg
+│   ├── roc.png
+│   └── ...
+├── notebooks/
+│   ├── 1_data_wrangling.ipynb
+│   ├── 2_eda.ipynb
+│   ├── 3_preprocessing.ipynb
+│   └── 4_modelling.ipynb
+├── Dockerfile
+├── README.md
+└── requirements.txt
+
 The main files for this project can be found under `notebooks`:
 
 - [`1_data_wrangling.ipynb`](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/notebooks/1_data_wrangling.ipynb):
@@ -91,7 +110,7 @@ weighted avg       0.93      0.93      0.93      6503
 ### Docker and AWS Integration
 This project has been updated to include Docker and AWS integration for seamless deployment and scalability. Here are the additional changes and enhancements made:
 
-Dockerization: The project now includes a Dockerfile, which allows you to containerize the application for easy deployment across different environments. The Dockerfile specifies the necessary dependencies and configurations required to run the project.
+[Dockerization](https://github.com/isabelanyc/Ice-Cream-Reviews/blob/main/Dockerfile): The project now includes a Dockerfile, which allows you to containerize the application for easy deployment across different environments. The Dockerfile specifies the necessary dependencies and configurations required to run the project.
 
 AWS Integration: The project has been integrated with Amazon Web Services (AWS) to leverage its cloud infrastructure and services. Specifically, the model training and deployment processes have been optimized using AWS SageMaker, a fully managed machine learning service. This integration provides benefits such as scalable computing resources, efficient model training, and simplified deployment.
 
