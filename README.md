@@ -87,6 +87,14 @@ weighted avg       0.93      0.93      0.93      6503
 <p align="center">
   <img src="./images/roc.png"  width="500" height="300">
 </p>
+### 
+This project has been updated to include Docker and AWS integration for seamless deployment and scalability. Here are the additional changes and enhancements made:
+
+Dockerization: The project now includes a Dockerfile, which allows you to containerize the application for easy deployment across different environments. The Dockerfile specifies the necessary dependencies and configurations required to run the project.
+
+AWS Integration: The project has been integrated with Amazon Web Services (AWS) to leverage its cloud infrastructure and services. Specifically, the model training and deployment processes have been optimized using AWS SageMaker, a fully managed machine learning service. This integration provides benefits such as scalable computing resources, efficient model training, and simplified deployment.
+
+SageMaker Deployment: The trained model can now be easily deployed on AWS SageMaker using the provided code and instructions. This enables you to create an endpoint for real-time inference, allowing the ice cream review classifier to be used in production environments.
 
 ### Future Work
 In the future, I wish to return to this project and make additions and adjustments:
