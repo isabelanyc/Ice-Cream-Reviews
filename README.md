@@ -46,24 +46,16 @@ Using these two sets of data, a single dataframe was created called `data`. This
 
 ### Project Breakdown
 
+```
 Ice-Cream-Reviews/
-
 ├── data/
-
 │   ├── test.csv
-
 │   ├── train.csv
-
 │   └── ...
-
 ├── images/
-
 │   ├── ben_jerry.jpeg
-
 │   ├── roc.png
-
 │   └── ...
-
 ├── notebooks/
 │   ├── 1_data_wrangling.ipynb
 │   ├── 2_eda.ipynb
@@ -72,7 +64,7 @@ Ice-Cream-Reviews/
 ├── Dockerfile
 ├── README.md
 └── requirements.txt
-
+```
 
 The main files for this project can be found under `notebooks`:
 
